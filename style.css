@@ -1,0 +1,36 @@
+body {
+	background-color: black;
+	color: lime;
+	font-family: monospace;
+	margin: 0;
+}
+
+a {
+	color: orangered;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	display: inline;
+}
+
+p {
+	font-size: 1.2em;
+}
+
+#wizard {
+	float: right;
+}
+
+.spacing {
+	margin: 20px;
+}
+
+#ie {
+	bottom: 80px;
+	left: 50%;
+	position:absolute;
+}
