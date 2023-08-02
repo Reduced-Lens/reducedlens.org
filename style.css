@@ -34,3 +34,10 @@ p {
 	left: 50%;
 	position:absolute;
 }
+
+#privacy-policy {
+	bottom: 40px;
+	left: 51%;
+	position:absolute;
+	font-size: 11px;
+}
