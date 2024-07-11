@@ -3,6 +3,7 @@ body {
     padding: 0;
     border: 0;
     height: 100vh;
+    font-family: sans-serif;
 }
 
 .body-separator-line {

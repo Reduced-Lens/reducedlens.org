@@ -1,9 +1,17 @@
 .header-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.header-title {
+#header-title {
     padding-left: 20px;
+    font-size: 20px;
+}
+
+#header-news {
+    padding-right: 20px;
+    justify-self: right;
     font-size: 20px;
 }
