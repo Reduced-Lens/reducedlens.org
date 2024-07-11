@@ -1,0 +1,46 @@
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+h2 {
+    margin: 0px;
+    font-size: 26px;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.responsive-card-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#external-links-header {
+    text-align: center;
+    font-size: 24px;
+}
+
+.external-links-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.call-to-action-button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}

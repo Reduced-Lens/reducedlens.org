@@ -1,0 +1,21 @@
+<div class="responsive-card-outer-box">
+    <div class="responsive-card-inner-box">
+        <div class="responsive-card-front">
+            <div class="responsive-card-text-front-container">
+                <p class="responsive-card-text responsive-card-text-front">{{frontText}}</p>
+            </div>
+        </div>
+        <div class="responsive-card-back">
+            <div class="responsive-card-text-back-container">
+                <p class="responsive-card-text responsive-card-text-back">{{backText}}</p>
+            </div>
+            <button class="responseive-card-back-investigation-button" (click)="toggleLightbox()">Learn more</button>
+        </div>
+    </div>
+</div>
+
+<app-lightbox *ngIf="showLightbox"
+    textTitle={{lightboxTextTitle}}
+    text={{lightboxText}}
+    link={{lightboxLink}}
+    (closeEvent)="toggleLightbox()"></app-lightbox>
