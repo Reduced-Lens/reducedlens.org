@@ -9,3 +9,7 @@ body {
 .body-separator-line {
     margin: 0px 10px;
 }
+
+a {
+    color: limegreen;
+}
